@@ -83,33 +83,4 @@ amirkia.rafiei@gmail.com
 - [@Amirkia1998](https://github.com/Amirkia1998)
 
 
-## Solution
-If we add an Edge from **U** to **V** with the weight equal to **W**,
-there will be 4 cases:
 
-1. There is an Edge from U to V , and the new 
-Edge is smaller. Thus we replace the current 
-edge with the new one (with the shorter one).
-[![1.jpg](https://i.postimg.cc/yxsQXLnM/1.jpg)](https://postimg.cc/JDY5Rcfx)
-
-2. There is an Edge from U to V , and the new 
-Edge is larger. So the MST remains unchanged.
-[![2.jpg](https://i.postimg.cc/7ZdKQHmM/2.jpg)](https://postimg.cc/NK88Kch5)
-
-3. There is no edge between U and V. When we 
-add the new edge, we will create a cycle between 
-U and V. As a result, we must find the unique path 
-from U to V and update the MST.
-If the new Edge is shorter than the largest Edge in 
-the path , the new Edge is added to the MST 
-and the largest Edge is removed.     
-[![311-Capture.jpg](https://i.postimg.cc/FRgGRjmD/311-Capture.jpg)](https://postimg.cc/XGq91BrC)
-The unique path will be like:
-[![312.jpg](https://i.postimg.cc/cCFm70v3/312.jpg)](https://postimg.cc/kRtKqrFM)
-
-Otherwise, MST remains unchanged.
-[![321.jpg](https://i.postimg.cc/hPGMDzY1/321.jpg)](https://postimg.cc/QVRcSthF)
-
-4. The input nodes (V or U or both) are not in the MST, so MST 
-remains unchanged.
-[![4.jpg](https://i.postimg.cc/sgQcSFsB/4.jpg)](https://postimg.cc/TKxgM4yG)
