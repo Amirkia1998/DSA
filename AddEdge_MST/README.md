@@ -42,7 +42,8 @@ The unique path will be like:
         
 [![312.jpg](https://i.postimg.cc/cCFm70v3/312.jpg)](https://postimg.cc/kRtKqrFM)
 
-Otherwise, MST remains unchanged.
+Otherwise, MST remains unchanged.       
+      
 [![321.jpg](https://i.postimg.cc/hPGMDzY1/321.jpg)](https://postimg.cc/QVRcSthF)
 
 4. The input nodes (V or U or both) are not in the MST, so MST 
