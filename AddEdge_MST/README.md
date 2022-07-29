@@ -36,8 +36,10 @@ from U to V and update the MST.
 If the new Edge is shorter than the largest Edge in 
 the path , the new Edge is added to the MST 
 and the largest Edge is removed.     
-[![311-Capture.jpg](https://i.postimg.cc/FRgGRjmD/311-Capture.jpg)](https://postimg.cc/XGq91BrC)
-The unique path will be like:
+[![311-Capture.jpg](https://i.postimg.cc/FRgGRjmD/311-Capture.jpg)](https://postimg.cc/XGq91BrC)    
+     
+The unique path will be like:     
+        
 [![312.jpg](https://i.postimg.cc/cCFm70v3/312.jpg)](https://postimg.cc/kRtKqrFM)
 
 Otherwise, MST remains unchanged.
